@@ -17,8 +17,8 @@ void setup() {
   Serial.println();
   Serial.println();
 
+  Serial.println("[SETUP] HOLD UP; WAIT A MINUTE...\n");
   for (uint8_t t = 4; t > 0; t--) {
-    Serial.printf("[SETUP] HOLD UP; WAIT A MINUTE%d...\n", t);
     Serial.flush();
     delay(1000);
   }
